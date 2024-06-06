@@ -1,0 +1,5 @@
+{
+    "pasta_xml": "data/saidas",
+    "pasta_substituir_nome": "data/saidas:data/entradas/nfe",
+    "somente_arquivo_que_contenha": "_completo_"
+}
