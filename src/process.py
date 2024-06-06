@@ -9,8 +9,8 @@ class ProcessXmls(object):
     def __init__(self, pathWithXmls, fileNameFilter, pathReplaceName) -> None:
         self.__pathWithXmls = pathWithXmls
         self.__fileNameFilter = fileNameFilter
-        self.__pathToReplace = pathReplaceName.split(':')[0]
-        self.__pathDest = pathReplaceName.split(':')[1]
+        self.__pathToReplace = pathReplaceName.split('|')[0]
+        self.__pathDest = pathReplaceName.split('|')[1]
 
     def __moveFiles(self, pathFile, pathDest):
         try:
